@@ -43,7 +43,7 @@ class DeseqDataSet:
         DataFrame containing clinical information.
         Must be indexed by sample barcodes.
 
-    design_factors : str or list[str]
+    design_factor : str or list[str]
         Name of the columns of clinical to be used as design variables. If a list,
         the last factor will be considered the variable of interest by default.
         Only bi-level factors are supported. (default: 'high_grade').
